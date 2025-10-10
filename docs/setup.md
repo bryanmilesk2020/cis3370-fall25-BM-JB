@@ -22,7 +22,8 @@
    When you see the boot menu, click 'Graphical install' and press enter
    Follow Installation Prompts (recommended for partition disks - choose 'Guided - use entire disk')
   ### e) post-installation - login with your credentials you setup during the installation prompts
-  ### Fixing missing APT sources on Kali Linus
+  ### Troubleshooting
+  #### Fixing missing APT sources on Kali Linus
   If you see this error when running 'sudo apt update': 'Notice: It seems you don't have any APT data sources configured'
   Type 'sudo nano /etc/apt/sources.list'
   Type 'deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware' in the file
