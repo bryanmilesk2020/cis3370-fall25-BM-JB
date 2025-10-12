@@ -22,10 +22,16 @@
    When you see the boot menu, click 'Graphical install' and press enter
    Follow Installation Prompts (recommended for partition disks - choose 'Guided - use entire disk')
   ### e) post-installation - login with your credentials you setup during the installation prompts
+  ### f) set up AWS CLI on Kali Linux VM
+  instructions for installation: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html#getting-started-install-instructions
+  region list: https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions.html
   ### Troubleshooting
-  #### Fixing missing APT sources on Kali Linus
+  #### Fixing missing APT sources on Kali Linux
   If you see this error when running 'sudo apt update': 'Notice: It seems you don't have any APT data sources configured'
   Type 'sudo nano /etc/apt/sources.list'
   Type 'deb http://http.kali.org/kali kali-rolling main contrib non-free non-free-firmware' in the file
   Save and exit nano file
   Type 'sudo apt update' to test it
+# 3) CIC-2018 dataset PCAP files
+  Must have AWS account and AWS CLI set up
+  ### https://www.unb.ca/cic/datasets/ids-2018.html
