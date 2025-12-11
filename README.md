@@ -83,7 +83,6 @@ Interpretation of Labels
 Limitations
 
 - Does not decrypt or inspect payloads
-- Does not identify specific malware families or attack types
 - Heuristic labeling may introduce bias
 - Intended as a behavioral detection and analytics system
 
