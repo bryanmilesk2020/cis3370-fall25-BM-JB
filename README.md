@@ -93,6 +93,12 @@ Future Work
 - Improve real-time ingestion and alerting
 - Extend classification to multi-class attack detection
 
+Indiviual Contribution 
+
+<img width="375" height="182" alt="Screenshot 2025-12-11 175906" src="https://github.com/user-attachments/assets/074e30fa-64ae-4baa-bd4e-0b4fbf0d5c24" />
+
+<img width="377" height="185" alt="Screenshot 2025-12-11 175924" src="https://github.com/user-attachments/assets/5bd0a4b8-e80b-4cb4-bb20-bdc8cd736451" />
+
 Conclusion
 
 This project demonstrates that encrypted traffic can be effectively analyzed using metadata-driven machine learning techniques. By combining Zeek, Python, and the Elastic Stack, the system provides a scalable and practical approach to encrypted traffic monitoring and threat detection.
